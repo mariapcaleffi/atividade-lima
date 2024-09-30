@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <center><h1>Interclasse SESI 2024</h1></center>
+        <center><h2>Cadastrar Jogos</h2></center>
+    </header>
+    <form>
+    <div class="formulario">
+        <input type="date" id="data" placeholder="Data" required>
+        <label for="time1">Time 1:</label>
+        <select id="time1" name="time1">
+            <option value="9a">9°A</option>
+            <option value="9b">9°B</option>
+            <option value="1a">1°A</option>
+            <option value="1b">1°B</option>
+            <option value="2a">2°A</option>
+        </select>
+        <label for="time2">Time 2:</label>
+        <select id="time2" name="time2">
+            <option value="9a">9°A</option>
+            <option value="9b">9°B</option>
+            <option value="1a">1°A</option>
+            <option value="1b">1°B</option>
+            <option value="2a">2°A</option>
+        </select>
+        <label for="jogo">Modalidade:</label>
+        <select id="jogo" name="jogo">
+            <option value="voleifem">Vôlei feminino</option>
+            <option value="voleimist">Vôlei misto</option>
+            <option value="society">Futebol society</option>
+            <option value="futsal">Futsal</option>
+            <option value="badm">Badminton</option>
+            <option value="futmesa">Futmesa</option>
+            <option value="pp">Pingpong</option>
+        </select>
+        <input type="text" id="pontos_time1" placeholder="Pontos do time 1" required>
+        <input type="text" id="pontos_time2" placeholder="Pontos do time 2" required>
+        <input type="text" id="destaque_time1" placeholder="Jogador destaque do time 1" required>
+        <input type="text" id="destaque_time1" placeholder="Jogador destaque do time 2" required>
+        <input type="submit" value="Cadastrar">
+    </div>
+    </form>
+    
+</body>
+</html>
